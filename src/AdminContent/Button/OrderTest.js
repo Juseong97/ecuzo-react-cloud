@@ -91,7 +91,7 @@ const OrderTest = () => {
   // 삭제 기능
   const handleDelete = (delIdx) => {
     axios
-      .delete(`https://port-0-ezuco-cloudtype-108dypx2ale6e8i6k.sel3.cloudtype.app/order/${delIdx + 1}`, {
+      .delete(`https://port-0-ezuco-cloudtype-108dypx2ale6e8i6k.sel3.cloudtype.app/delete/${delIdx + 1}`, {
         headers: {
           "Content-Type": "application/json",
           Authorization: "Bearer " + accessToken,
